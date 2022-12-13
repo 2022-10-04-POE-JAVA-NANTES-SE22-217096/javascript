@@ -46,8 +46,33 @@ function fact(nbr){
 function afficherDomFact(nbr){
     let factorielle = fact(nbr);
     let divResult = document.querySelector('#principal');
-    
-    
-    divResult.innerHTML = `<strong>Resultat ${factorielle}</strong>`;
 
+    divResult.innerHTML = `<strong>Resultat ${factorielle}</strong>`;
 }
+
+
+/*
+Event
+*/
+
+
+function maFonction(){
+    alert('yo');
+    console.log('dddd');
+}
+
+//recuperer l'instance HTMLElement 
+let btnClick = document.querySelector('#btnclick');
+
+//Assigner un gestionnaire d'event sur le click
+btnClick.addEventListener('click', ()=>{
+    console.log('hello');
+});
+
+
+
+document.querySelector('#principal').addEventListener('click', (event)=>{
+
+    console.log(`Je me trouve ici ${event.clientX} - ${event.clientY}`);
+
+});
