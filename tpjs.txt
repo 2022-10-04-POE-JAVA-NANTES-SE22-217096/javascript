@@ -153,5 +153,13 @@ CRUD complet
 Avec un tableau
 
 
+------
+
+Recuperer le code de la factorielle.
+
+Et dans la console quand vous taper fact(5);
+le resultat doit s'afficher à l'intérieur d'une div.
+
+
 
 
