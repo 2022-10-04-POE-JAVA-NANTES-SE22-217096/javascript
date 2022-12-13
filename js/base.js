@@ -192,7 +192,7 @@ unshift()
 
 //FiFo
 tab1.push('element');
-tab1.unshift()
+tab1.unshift();
 
 //Lifo
 tab1.push('element');
