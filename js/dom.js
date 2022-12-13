@@ -25,7 +25,7 @@ document.querySelectorAll('div'); //ByTab
 document.querySelector("div[exemple='exemple']")
 */
 
-document.querySelector('#principal').innerHTML = '<strong>yo</strong>';
+//document.querySelector('#principal').innerHTML = '<strong>yo</strong>';
 //document.querySelector('#principal').textContent = '<strong>text en dur</strong>';
 
 
@@ -33,3 +33,21 @@ document.querySelector('#principal').innerHTML = '<strong>yo</strong>';
 /* JOUER avec les attributes
 document.querySelector().setAttribute();
 document.querySelector().getAttribute();
+
+*/
+
+
+//TP Factorielle + DOM
+function fact(nbr){
+    return nbr <= 1 ? 1 : fact(nbr-1) * nbr;
+}
+
+
+function afficherDomFact(nbr){
+    let factorielle = fact(nbr);
+    let divResult = document.querySelector('#principal');
+    
+    
+    divResult.innerHTML = `<strong>Resultat ${factorielle}</strong>`;
+
+}
