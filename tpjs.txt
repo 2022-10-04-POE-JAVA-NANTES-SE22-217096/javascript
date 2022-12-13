@@ -1,0 +1,157 @@
+Ecrire une page HTML
+Rattacher cette page à un script js dans un fichier séparé.
+et afficher un message au chargement de la page "hello, the world!"
+
+--------------
+
+A partir du fichier js
+
+Ecrire un programme qui vous demande votre age.
+Si vous avez plus de 18 ans, un message (console) de bienvenue apparait
+sinon une alert (popup) vous indique que vous n'avez pas le droit d'y acceder.
+
+
+--------------
+
+Creer trois fonctions
+
+1 fonction qui additionne 2 numbers
+1 fonction qui multiplie 2 numbers
+une fonction qui affiche dans la console un argument.
+
+Vous appelerez dans votre script les 2 fonctions et à chaque fois vous utiliserez la fonction d'affichage
+pour afficher le résultat.
+
+
+---------------
+
+Creer une fonction qui calcul une factorielle en iteratif.
+Creer une fonction qui calcul une factortielle en recursif.
+
+Vous appelez vos deux fonctions directement depuis la console du navigateur.
+
+ex :
+
+factIter(5);
+factRecur(5);
+
+
+BONUS ---------
+
+Une fonction quand on donne un nombre elle indique si il est premier ou non
+et fait cela pour tous les nombres qui le précède.
+
+Exemple :
+premier(5)
+5 -> oui
+4 -> non
+3 -> oui
+2 -> oui
+1 -> non
+
+
+
+----------------------------------
+
+Une fonction ope()
+
+cette fonction permet d'effectuer une operation sur un nombre.
+Cette operation est definit par une callback.
+
+
+ope(operation, 4);
+
+ope executerait la function operation avec en argument 4.
+
+
+Les operations à implémenter sont :
+primarité
+factorielle
+
+
+---------------------------------------
+
+
+Vous allez me creer une application qui appelle une methode ope avec 3 arguments
+: callback
+: nombre
+: nombre
+
+en fonction du callback il fait une add / sous / multiplication.
+
+Vous me l'ecrivez avec 2 arrows functions et 1 fonction anonyme basique
+
+
+
+-------
+Avec prototype :
+
+
+Vous allez creer un slot fact()
+quand on appelle fact() sur un string il vous sort la factorielle de ce nombre (à convertir avec parseInt)
+
+"5".fact() => 120
+
+
+
+
+-------------------------------
+* Créez une classe Pokémon : 
+
+Un Pokémon possède un nom, 
+un numéro d’identification dans le Pokédex, 
+une taille, un poids, 
+un type, 
+un certain nombre de points de vie 
+et deux attaques différentes qui peuvent infliger un certain nombre de points de dégâts.
+
+• Une attaque est une classe composée de deux attributs : un libellé et un nombre de dégâts.
+
+• À partir de ces deux classes, instanciez deux Pokémon : Pikachu et Evoli.
+    – Pikachu est le Pokémon numéro 025. 
+    Il est de type électrique, il mesure 40 cm et pèse 6 kilos. 
+    Il a 82 points de vie et ses deux attaques sont : 
+    statik, qui inflige 10 points de dégâts
+    paratonnerre, qui en inflige 25
+
+    – Evoli est le Pokémon numéro 133. 
+    Il est de type normal, il mesure 30 cm et pèse 6,5 kilos. 
+    Il a 70 points de vie et ses deux attaques sont 
+    adaptabilité, qui inflige 9 points de dégâts
+    anticipation, qui en inflige 15.
+
+
+
+Attaque
+• Ajoutez une méthode attaque() dans la classe Pokemon. 
+Celle-ci permet à un Pokémon d’en combattre un autre
+
+• S’il n’a plus que 20 % de points de vie
+    – le Pokémon lance la deuxième attaque, plus puissante
+• Sinon, la première attaque est lancée
+    – (celle qui inflige le moins de dégâts) qui est lancée
+
+
+Combat
+• Organisez le combat des deux Pokémon Pikachu et Evoli
+• Chaque Pokémon attaque à tour de rôle. Un Pokémon est KO lorsque son total de
+points de vie est inférieur à zéro. Le premier attaquant est décidé par tirage au sort
+
+La méthode Math.random() retourne un nombre flottant aléatoire compris entre 0 et 1
+• Chaque attaque d’un Pokémon a 10 % de chances d’être un coup critique et d’infliger 100 % de dégâts supplémentaires.
+• L’application déclare le combat, journalise chaque attaque et affiche le vainqueur en indiquant le nombre de points de vie restants.
+
+
+
+-------------------------
+
+
+Creer une todo list en javascript.
+Tout est géré depuis la console.
+CRUD complet
+
+Avec un tableau
+
+
+
+
