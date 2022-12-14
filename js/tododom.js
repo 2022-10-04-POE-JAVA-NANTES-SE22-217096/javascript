@@ -54,7 +54,8 @@ class Todos{
 
 
 let todos = new Todos();
-let result = document.querySelector('#principal');
+//Je recupere la div principal
+let principal = document.querySelector('#principal');
 let todo = document.querySelector('#txttodo');
 
 
@@ -62,11 +63,12 @@ document.querySelector('#btnclick').addEventListener('click',()=>{
     
     todos.add(todo.value);
     
-    result.innerHTML = '';
+    //je vide le contenu
+    principal.innerHTML = '';
 
     for(let element of todos.readAll()){
-        result.innerHTML += `<span class="exemple">${element}</span>`;
-        result.innerHTML += '<hr/>';
+        principal.innerHTML += `<span >${element}</span>`;
+        principal.innerHTML += '<hr/>';
 
     }
 

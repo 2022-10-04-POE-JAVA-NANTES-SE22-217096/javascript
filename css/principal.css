@@ -1,0 +1,21 @@
+
+#principal{
+    width:50%;
+    background-color:black;
+    color: green;
+}
+
+
+.colorChange{
+    background-color: yellow;
+}
+
+.reception{
+    display: flex;
+
+}
+
+.reception > fieldset {
+
+    width: 50%;
+}

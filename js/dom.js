@@ -11,7 +11,6 @@
 let element = document.getElementById('');
 document.getElementsByTagName('')
 document.getElementsByClassName();
-document.getElementsByTagName();
 */
 
 

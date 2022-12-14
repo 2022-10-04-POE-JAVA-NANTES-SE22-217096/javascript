@@ -6,45 +6,25 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
 
-        <style>
-
-            @keyframes slide{
-                from{
-                    transform : translateX(0%);
-                }
-                to{
-                    transform : translateX(100%);
-                }
-            }
-
-            #principal{
-                width:50%;
-                background-color:black;
-                color: green;
-            }
-
-            .exemple{
-                animation: 3s linear slide;
-            }
-
-
-
-
-        </style>
+        <link href="/css/principal.css" rel="stylesheet">
 
       
     </head>
     <body>
         <main id="main">
 
-            <fieldset>
+            <fieldset id="fieldset">
                 <legend>Add todo</legend>
                 <form>
                     <input type="text" id="txttodo" placeholder="ajouter dans la todo">
                     <input type="button" value="cliquez" id="btnclick">
+
+                    <input type="button" value="changer attribut" id="btnchangeattr">
                 </form>
 
             </fieldset>
+
+
             <div id="principal">
 
 
@@ -53,7 +33,28 @@
             
            
 
+            
 
+
+            <div class="reception">
+                <fieldset>
+                    <legend>Boite 1</legend>
+                    
+                    <form>
+                        <input type="button" value="envoyer > " id="btn1">
+                    </form>
+                    <span id="reception1">L'enveloppe est ici</span>
+                </fieldset>
+                <fieldset>
+                    <legend>Boite 2</legend>
+                    
+                    <form>
+                        <input type="button" value="< envoyer" id="btn2">
+                    </form>
+                    <span id="reception2"></span>
+                </fieldset>
+
+            </div>
 
 
 
@@ -61,6 +62,7 @@
 
 
         
-        <script src="/dist/file.js" ></script>
+        <script src="/js/tododom.js" ></script>
+        <script src="/js/attr.js" ></script>
     </body>
 </html>
