@@ -162,4 +162,20 @@ le resultat doit s'afficher à l'intérieur d'une div.
 
 
 
+--------
+
+
+Creer un button HTML
+Un abonnement à un event click (INTERDIT DOM-0)
+
+A chaque fois que vous cliquez ca ajoute dans une div un message : "J'ai cliqué" (sans effacer les messages précédents).
+
+Ex de la div après deux cliques :
+
+j'ai cliqué
+j'ai cliqué
+
+
+
+
 

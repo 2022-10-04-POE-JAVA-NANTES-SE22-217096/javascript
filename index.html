@@ -7,13 +7,27 @@
         <title>Document</title>
 
         <style>
-            #principal{
-                width:100%;
-                height:5em;
 
-                background-color: aqua;
-
+            @keyframes slide{
+                from{
+                    transform : translateX(0%);
+                }
+                to{
+                    transform : translateX(100%);
+                }
             }
+
+            #principal{
+                width:50%;
+                background-color:black;
+                color: green;
+            }
+
+            .exemple{
+                animation: 3s linear slide;
+            }
+
+
 
 
         </style>
@@ -22,19 +36,31 @@
     </head>
     <body>
         <main id="main">
+
+            <fieldset>
+                <legend>Add todo</legend>
+                <form>
+                    <input type="text" id="txttodo" placeholder="ajouter dans la todo">
+                    <input type="button" value="cliquez" id="btnclick">
+                </form>
+
+            </fieldset>
             <div id="principal">
 
 
 
             </div>
-            <input type="button" value="cliquez" id="btnclick">
+            
            
+
+
+
 
 
         </main>
 
 
         
-        <script src="/js/dom.js" ></script>
+        <script src="/dist/file.js" ></script>
     </body>
 </html>
