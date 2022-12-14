@@ -19,3 +19,11 @@
 
     width: 50%;
 }
+
+fieldset[disabled]{
+
+    background-color: brown;
+    color:blue;
+
+}
+
