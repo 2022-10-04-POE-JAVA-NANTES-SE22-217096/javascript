@@ -62,7 +62,6 @@ document.querySelector('#btnclick').addEventListener('click',()=>{
     
     todos.add(todo.value);
     
-console.log(todos.readAll());
     result.innerHTML = '';
 
     for(let element of todos.readAll()){
