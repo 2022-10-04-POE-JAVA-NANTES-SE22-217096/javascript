@@ -24,6 +24,7 @@ let boite2      = document.querySelector('#boite2');
 
 function toggleMessage(depart, destination){
     let idReception1 = depart.getAttribute('data-reception');
+
     let idReception2 = destination.getAttribute('data-reception');
 
     let message = document.querySelector('#'+idReception1).innerHTML;
