@@ -40,3 +40,12 @@ img{
     justify-content: center;
 }
 
+.component{
+    width   :32px;
+    height  :32px;
+
+    border: 1px dotted black;
+    background-color: aqua;
+
+}
+
