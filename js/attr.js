@@ -22,9 +22,6 @@ let btn2        = document.querySelector('#btn2');
 let boite1      = document.querySelector('#boite1');
 let boite2      = document.querySelector('#boite2');
 
-let message     = "L'enveloppe est ici";
-
-
 function toggleMessage(depart, destination){
     let idReception1 = depart.getAttribute('data-reception');
     let idReception2 = destination.getAttribute('data-reception');
